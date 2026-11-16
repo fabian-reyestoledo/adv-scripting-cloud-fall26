@@ -1,0 +1,32 @@
+# Terraform - state, local config, and provider binaries (should never be committed)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Secrets / private keys
+*.pem
+*.p12
+*.key
+*_rsa
+id_rsa
+*.env
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
